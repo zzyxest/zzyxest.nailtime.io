@@ -2,15 +2,19 @@
 <html>  
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />
-
-<title>预约服务</title>
-预约项目（最少选择一项）：<br/>
-div
+<style>
+.newspaper
 {
 -moz-column-gap:40px;		/* Firefox */
 -webkit-column-gap:40px;	/* Safari 和 Chrome */
 column-gap:40px;
 }
+</style>
+</head>
+        
+<title>预约服务</title>
+预约项目（最少选择一项）：<br/>
+<div class="newspaper">
         <input type="checkbox" name="手部美甲" value="车" left:300px>手部美甲<br>  
         <input type="checkbox" name="足部美甲" value="车" left:300px>足部美甲<br>  
         <input type="checkbox" name="手部护理" value="车" left:300px>手部护理<br>  
@@ -19,5 +23,5 @@ column-gap:40px;
 预约时间：<input type="time" id='time' /><br/> 
 预约技师：<br/>
         
-</head>
+
 </html>
