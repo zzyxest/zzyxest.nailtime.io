@@ -21,43 +21,52 @@ body
 <title>预约服务</title>
 <body>
 
-    <div class="d">
+    <div style="padding-left:0;">
         <img src="http://p2bmnd73r.bkt.clouddn.com/nailtime_logo.png" width="100%"/><br\>
     </div>
         
     <hr/>
     
-    <span style="font-size:150%; font-weight:blod;">预约项目（最少选择一项）：</span><br/>
-        
-    <div>
-        <input type="checkbox" name="手部美甲" value="手部美甲">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;手部美甲&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;
-        <input type="checkbox" name="足部美甲" value="足部美甲">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;足部美甲<br>  <br>
-        <input type="checkbox" name="手部护理" value="手部护理">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;手部护理&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;
-        <input type="checkbox" name="足部护理" value="足部护理">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;足部护理<br>  <br><br>    </div>
-    <span style="font-size:150%; font-weight:blod;">预约时间：</span><br/>
+    <div style="padding-left:30px;">
+        <span style="font-size:150%; font-weight:blod;">预约项目（可多选）：</span><br/>
+        <div style="padding-left:30px;">
+            <input type="checkbox" name="手部美甲" value="手部美甲">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;手部美甲&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;
+            <input type="checkbox" name="足部美甲" value="足部美甲">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;足部美甲<br>  <br>
+            <input type="checkbox" name="手部护理" value="手部护理">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;手部护理&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;
+            <input type="checkbox" name="足部护理" value="足部护理">&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;足部护理<br>  <br><br>
+        </div>
+    
+        <span style="font-size:150%; font-weight:blod;">预约时间：</span><br/>
         <input type="date" id='date' >
         <input type="time" id='time' /><br/><br>
-    <span style="font-size:150%; font-weight:blod;">预约技师：</span><br/>
-         <input type="radio" name="jishu" value="jishu1">
-         <label><img align="middle" src="http://i0.sinaimg.cn/ent/m/c/2010-09-09/1283989825_rxverC.jpg" width="120"></label>
-         <input type="radio" name="jishu" value="jishu2">
-         <label><img align="middle" src="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=b51db79b530fd9f9a0425d6f151df812/b151f8198618367a8451e73a2c738bd4b21ce579.jpg" width="120"></label>
-         <br/>
-         <input type="radio" name="jishu" value="jishu3">
-         <label><img align="middle" src="http://gb.cri.cn/mmsource/images/2010/04/15/55/17587610767342721715.jpg" width="120"></label>
-         <input type="radio" name="jishu" value="jishu4">
-         <label><img align="middle" src="http://news.cnhubei.com/xw/yl/201509/W020150929409660724562.jpg" width="120"></label>
-         <br/><br>
-    <span style="font-size:150%; font-weight:blod;">备注：</span><br/>
-        <textarea rows="5" cols="55">
-        </textarea><br>
-Tips：<br>
-1、预约时间为到店时间<br>
-2、我们将为您保留15分钟，逾期需要重新预约，感谢您的理解；<br>
-3、如有问题，可以在公众号直接与客服联系<br>
-<br>
-<a href="https://zzyxest.github.io/zzyxest.nailtime.io/yuyue_info.html"><img src="http://p2bmnd73r.bkt.clouddn.com/submit_yuyue1.png"/></a><br><br>
-<br><br><br><br><br><br><br><br><br><br>
+        
+        <span style="font-size:150%; font-weight:blod;">预约技师（单选）：</span><br/>
+             <input type="radio" name="jishu" value="jishu1">
+             <label><img align="middle" src="http://i0.sinaimg.cn/ent/m/c/2010-09-09/1283989825_rxverC.jpg" width="100"></label>
+             <input type="radio" name="jishu" value="jishu2">
+             <label><img align="middle" src="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=b51db79b530fd9f9a0425d6f151df812/b151f8198618367a8451e73a2c738bd4b21ce579.jpg" width="100"></label>
+             <br/>
+             <input type="radio" name="jishu" value="jishu3">
+             <label><img align="middle" src="http://img3.zdface.com/ent/2015-12-04/2bacae87ad27c4c6d963a7f0d80298bc.jpg" width="100"></label>
+             <input type="radio" name="jishu" value="jishu4">
+             <label><img align="middle" src="http://news.cnhubei.com/xw/yl/201509/W020150929409660724562.jpg" width="100"></label>
+             <br/><br>
+         
+        <span style="font-size:150%; font-weight:blod;">备注：</span><br/>
+            <textarea rows="5" cols="60">
+            </textarea><br>
+
+        <span style="font-size:150%; font-weight:blod;color:#FF0000">Tips：</span><br/>
+        <div style="color:#FF0000">
+        1、预约时间为到店时间<br>
+        2、我们将为您保留15分钟，逾期需要重新预约，感谢您的理解；<br>
+        3、如有问题，可以在公众号直接与客服联系<br>
+        </div>
+        
+        <br>
+        <a href="https://zzyxest.github.io/zzyxest.nailtime.io/yuyue_info.html"><img src="http://p2bmnd73r.bkt.clouddn.com/submit_yuyue1.png"/></a><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
 </body>
 </html>
 
